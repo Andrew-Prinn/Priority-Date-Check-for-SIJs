@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+<body style="margin: 0;">
+    <div class="header">
+        Priority Date Check for Special Immigrant Juveniles
+    </div>
+    <div class="form">
+        <div id="countrySelection">
+        <label for="countries">Country of origin:</label>
+        <select id="countries" name="countries">
+            <option value="no selection">Select...</option>
+            <option value="china">🇨🇳 China (mainland born)</option>
+            <option value="el salvador">🇸🇻 El Salvador</option>
+            <option value="guatemala">🇬🇹 Guatemala</option>
+            <option value="honduras">🇭🇳 Honduras</option>
+            <option value="india">🇮🇳 India</option>
+            <option value="mexico">🇲🇽 Mexico</option>
+            <option value="philippines">🇵🇭 Philippines</option>
+            <option value="other">Other Country</option>
+        </select>
+        </div>
+        <div id="filingDateSelection">
+        Date of filing: <input type="date" id="myDate">
+        </div>
+        <button onclick="submitFunction()">Submit</button>
+    </div>
+    <h1 id="result"></h1>
+    <div id="returnLink">
+        <a href ="https://ayuda.com/">Return to Ayuda.com</a>
+    </div>
+</body>
+</html>
