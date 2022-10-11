@@ -22,7 +22,5 @@ function submitFunction() {
     else {
         document.getElementById("result").innerHTML = "Your filing date is current. Consult with an attorney about applying for a green card.";
     }
-    console.log(countrySelection.value);
-    console.log(dateSelection.value);
 }
 
